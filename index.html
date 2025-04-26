@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Bala Kumar's portfolio showcasing web development skills and projects.">
+  <meta name="keywords" content="web development, portfolio, programmer, Bala Kumar, front-end, back-end">
+  <meta name="author" content="Bala Kumar">
+  <title>Bala Kumar Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+  <nav>
+    <div class="container">
+      <h1 class="logo">M A Bala Kumar</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header>
+    <div class="container">
+      <h1>Hi, I'm Bala Kumar</h1>
+      <p>Web Developer | Coder | Dreamer</p>
+    </div>
+  </header>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I love building beautiful websites that make an impact. I am passionate about web development, coding, and constant learning.</p>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-item">Python</div>
+        <div class="skill-item">C++</div>
+        <div class="skill-item">C</div>
+        <div class="skill-item">HTML</div>
+        <div class="skill-item">CSS</div>
+        <div class="skill-item">JavaScript</div>
+        <div class="skill-item">Tailwind CSS</div>
+        <div class="skill-item">React JS</div>
+        <div class="skill-item">SQL</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Udemy-clone</h3>
+          <p>A responsive Udemy landing page clone built using HTML and CSS.</p>
+          <a href="https://balakumar4.github.io/udemy-clone/" class="btn">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Tripadvisor-clone</h3>
+          <p>A stylish TripAdvisor clone created using HTML and CSS.</p>
+          <a href="https://balakumar4.github.io/tripadvisor-clone/" class="btn">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Greenden Website</h3>
+          <p>A beautiful plant selling website built with Tailwind CSS.</p>
+          <a href="https://balakumar4.github.io/greenden-tailwind/" class="btn">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Food Order Website</h3>
+          <p>A simple food ordering website using basic HTML and CSS.</p>
+          <a href="https://balakumar4.github.io/food-order-website/" class="btn">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Student Form Website</h3>
+          <p>A dynamic Student Details form created with HTML, CSS, and JavaScript to manage and display student information.</p>
+          <a href="https://balakumar4.github.io/student-details/" class="btn">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Image-Gallery-Website</h3>
+          <p>A responsive image gallery built with HTML and CSS, showcasing a collection of images in a grid layout.</p>
+          <a href="https://balakumar4.github.io/image-gallery-website/" class="btn">View Project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>I'd love to hear from you! Feel free to reach out to me via any of the platforms below.</p>
+      <div class="contact-links">
+        <a href="mailto:balakumar105062004@gmail.com" target="_blank" class="contact-link">
+          <i class="fa fa-envelope"></i> 📧 Email
+        </a>
+        <a href="https://www.linkedin.com/in/balakumar-m-a-093331299" target="_blank" class="contact-link">
+          <i class="fa fa-linkedin"></i> 🔗 LinkedIn
+        </a>
+        <a href="https://leetcode.com/u/4RlGpw7nY7/" target="_blank" class="contact-link">
+          <i class="fa fa-brain"></i> 🧠 LeetCode
+        </a>
+        <a href="https://www.instagram.com/_itsbkhere_/" target="_blank" class="contact-link">
+          <i class="fa fa-camera-retro"></i> 📸 Instagram
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Bala Kumar. Made with ❤️</p>
+    </div>
+  </footer>
+
+  <!-- Smooth Scroll JS -->
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+
+</body>
+</html>
